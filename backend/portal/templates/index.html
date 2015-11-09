@@ -1,7 +1,67 @@
-<html>
-	<body>
-		<h1>
-			hi
-		</h1>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CureSoft</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/index.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+</head>
+
+<body id="CureSoft" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#CureSoft" onclick="location.href='Home.html'">CureSoft</a>
+      </div>
+      <ul class="nav navbar-nav">
+            <li>
+                <p class="navbar-btn">
+                    <a href="#" class="btn btn-default" id="caretaker-join">Caretaker Sign-up</a> 
+                    <a href="#" class="btn btn-default" id="loadpatients">Load Patients</a> 
+                </p>
+            </li>
+        </ul>
+    </div>
+  </nav>
+
+  <div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Patient List</h1>
+        <table class="table table-condensed">
+          <thead>
+            <tr>
+              <th>ID #</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Date Joined</th>
+            </tr>
+          </thead>
+          <tbody id="PatientTable">
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h3>Add or Remove Patient</h3>
+        <span>
+          <input class="form-control" id="IdNumber" name="Identification" placeholder="Identification Number" type="text" required>
+          <button class="btn" type="Add" onclick="AddPatient()">Add</button>
+        </span>
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>
