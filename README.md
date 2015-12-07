@@ -1,4 +1,4 @@
-# DementiaHack2015
+# MemoryBox 
 
 *An hackathon hosted by Facebook in Toronto, ON on Nov 7-8 2015.
 
