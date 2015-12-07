@@ -1,6 +1,6 @@
 # MemoryBox 
 
-*An hackathon hosted by Facebook in Toronto, ON on Nov 7-8 2015.
+*Developed on Nov 7-8 2015.
 
 
 *Team name*: CS1-CureSoft
